@@ -1,0 +1,296 @@
+body{
+    background: url('../images/darkgrain.png') repeat;
+}
+
+.container{
+  min-width: 100%;
+}
+
+div{
+  padding: 0px !important;
+  padding-right: 0px !important;
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+h1{
+	font-family: Allerta;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h3 {
+	font-family: Allerta;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+p {
+	/*font-family: Allerta;*/
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+blockquote {
+	font-family: Allerta;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+pre {
+	font-family: Allerta;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    /*margin-right:-4px;*/
+}
+
+.form-control{
+    /*border-radius: 0px;*/
+}
+
+/*.btn{
+    border-radius: 0px;
+}*/
+
+.btn-default{
+    background-color: #16a085;
+    border: 1px solid #16a085;
+    color: #fff;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus{
+    background-color: #028c71;
+    border: 1px solid #028c71;
+    color: #fff;
+}
+
+.btn-white{
+    color: #5c5c5c;
+    background-color: #fff;
+    border: 1px solid #dbd8d8;
+}
+
+.btn-white:hover{
+    color: #5c5c5c;
+    background-color: #eeeeee;
+    border: 1px solid #5c5c5c;
+}
+
+.btn-dodgerblue{
+    background-color: #009ddb;
+    color: #fff;
+}
+
+.btn-dodgerblue:hover{
+    background-color: #0184b8;
+    color: #fff;
+}
+
+.btn-danger{
+    background-color: #e66a48;
+    color: #fff;
+}
+
+.btn-danger:hover, .btn-danger:active, .btn-danger:focus{
+    background-color: #d45431;
+    border-color: #d45431;
+}
+
+.btn-warning{
+    background-color: #fb8d17;
+    color: #fff;
+}
+
+.btn-warning:hover, .btn-warning:active, .btn-warning:focus{
+    background-color: #dc7910;
+    border-color: #dc7910;
+}
+
+.btn-long{
+    min-width: 170px;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.inner-addon .fa {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.shadow{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-shadow{
+    box-shadow: 0 1px 1px rgba(180,180,180,0.5);
+}
+
+.padding-top-15{
+    padding-top: 15px !important;
+}
+
+.padding-right-15{
+    padding-right: 15px !important;
+}
+
+.padding-bottom-15{
+    padding-bottom: 15px !important;
+}
+
+.padding-left-15{
+    padding-left: 15px !important;
+}
+
+.padding-all-15{
+    padding: 15px !important;
+}
+
+.padding-top-30{
+    padding-top: 30px !important;
+}
+
+.padding-right-30{
+    padding-right: 30px !important;
+}
+
+.padding-bottom-30{
+    padding-bottom: 30px !important;
+}
+
+.padding-left-30{
+    padding-left: 30px !important;
+}
+
+.padding-all-30{
+    padding: 30px !important;
+}
+
+.margin-top-15{
+    margin-top: 15px !important;
+}
+
+.margin-right-15{
+    margin-right: 15px !important;
+}
+
+.margin-bottom-15{
+    margin-bottom: 15px !important;
+}
+
+.margin-left-15{
+    margin-left: 15px !important;
+}
+
+.margin-all-15{
+    margin: 15px !important;
+}
+
+.margin-top-30{
+    margin-top: 30px !important;
+}
+
+.margin-right-30{
+    margin-right: 30px !important;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px !important;
+}
+
+.margin-left-30{
+    margin-left: 30px !important;
+}
+
+.margin-all-30{
+    margin: 30px !important;
+}
+
+.text-darkcyan{
+    color: #16a085;
+}
+
+.text-teal{
+    color: #028c71;
+}
+
+.text-tomato{
+    color: #e66a48;
+}
+
+.text-darkorange{
+    color: #fb8d17;
+}
+
+.text-firebrick{
+    color: #cc3300;
+}
+
+.darkcyan{
+    background-color: #16a085;
+    color: #fff;
+}
+
+.teal{
+    background-color: #028c71;
+    color: #fff;
+}
+
+.tomato{
+    background-color: #e66a48;
+    color: #fff;
+}
+
+.darkorange{
+    background-color: #fb8d17;
+    color: #fff;
+}
+
+.firebrick{
+    background-color: #cc3300;
+    color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+    .row-centered{
+        width: 100%;
+    }
+}
