@@ -1,0 +1,6 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule    ^home    home.php    [NC,L]
+RewriteRule    ^([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$    c_ads.php?action=$1&article=$2&sort=$3&layout=$4
+RewriteRule    ^view/([A-Za-z0-9-]+)/?$    c_ads.php?action=view&article=$1
+RewriteRule    ^publish    c_ads.php?action=publish
